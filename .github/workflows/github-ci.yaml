@@ -2,6 +2,6 @@ name: github-ci
 on: [push]
 jobs:
   genExe:
-    runs-on: ubunut-latest
+    runs-on: ubunut-22.04
     steps:
       - run: echo 42 
